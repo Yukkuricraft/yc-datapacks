@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "comment": "To add 1.16: axolotl buckets",
+    "values": [
+		"minecraft:cod_bucket",
+		"minecraft:salmon_bucket",
+		"minecraft:pufferfish_bucket",
+		"minecraft:tropical_fish_bucket"
+    ]
+}
