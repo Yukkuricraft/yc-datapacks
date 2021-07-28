@@ -7,10 +7,10 @@ const verbose = process.argv.length >= 2 && process.argv[2] === '-v'
 
 async function validate(schema, file) {
 	const content = await fs.readFile(file, {encoding: 'utf8'})
-	const spawnEggs = JSON.parse(content)
+	const data = JSON.parse(content)
 
 	const model = new DataModel(schema)
-	model.data = spawnEggs
+	model.data = data
 
 	model.validate(false)
 	return model.errors
