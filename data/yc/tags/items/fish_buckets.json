@@ -1,7 +1,8 @@
 {
   "replace": true,
-  "comment": "To add 1.16: axolotl buckets",
+  "comment": "Updated 1.18... But for some reason can't use with LP???",
   "values": [
+    "minecraft:axolotl_bucket",
     "minecraft:cod_bucket",
     "minecraft:salmon_bucket",
     "minecraft:pufferfish_bucket",
